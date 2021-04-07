@@ -24,7 +24,7 @@ public class MyComparator {
             @Override
             public int compare(Board o1, Board o2) {
                 // DESC : * -1
-                return o1.getName().compareTo(o2.getName());
+                return o1.getDate().compareTo(o2.getDate())*-1;
             }
         });
 
